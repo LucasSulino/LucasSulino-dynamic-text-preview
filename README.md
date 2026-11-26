@@ -26,5 +26,5 @@ A ideia é simples: digitar um texto e visualizar as alterações em tempo real,
 ## Próximos passos
 
 - Adicionar mais opções de personalização
-- Melhorar o design
+- ✅ Melhorar o design
 - Aprender novas formas de manipular elementos com JavaScript
