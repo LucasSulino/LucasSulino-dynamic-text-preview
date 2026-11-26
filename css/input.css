@@ -1,6 +1,6 @@
 @import "tailwindcss";
 
 .btn{
-    @apply border-2 cursor-pointer rounded-2xl  p-5 mt-7 w-30
+    @apply flex flex-col lg:flex-row lg:text-4xl justify-center items-center border-2 cursor-pointer rounded-3xl  p-3 h-40
      font-medium
 }

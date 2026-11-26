@@ -7,21 +7,41 @@
     <link rel="stylesheet" href="./css/output.css">
     <title>Dynamic Text Preview</title>
 </head>
-<body class="h-dvh flex justify-center bg-gray-400 border-5">
-      
-    <section class=" flex flex-col  justify-center bg-gray-500 items-center w-[400] p-10">
-        <div class="w-full mb-10 flex justify-center">
-            <h1 id="h1" class=" cursor-pointer text-4xl mb-40"></h1>
+<body class="h-dvh flex justify-center bg-gray-400 border-5">   
+    <section class=" grid grid-cols-4 grid-rows-3 justify-center bg-gray-500 items-center w-full gap-x-2 p-10">
+        <div class="bg-black w-full border-3 min-h-20 p-3 rounded-2xl col-start-1 col-end-5 row-start-3 cursor-pointer text-4xl">
+            <h1 id="h1" class="w-full text-center break-all text-white"></h1>
         </div>
-        <input class="bg-white border w-full rounded-2xl p-2" type="text" id="input">
-        <div class="flex gap-4">
-            <button id="btnB" class="btn bg-blue-300 hover:bg-gray-400 border-blue-700 text-blue-800">Azul</button>
-            <button id="btnG" class="btn hover:bg-gray-400 border-green-700 text-green-800 bg-green-300">Verde</button>
-            <button id="btnY" class="btn hover:bg-gray-400 border-yellow-700 text-yellow-800 bg-yellow-300">Amarelo</button>
-            <button id="btnR" class="btn hover:bg-gray-400 border-red-700 text-red-800 bg-red-300">Vermelho</button>
-        </div>
+        <input class="lg:h-20 lg:text-3xl col-start-1 col-end-5 bg-white border w-full h-15 rounded-2xl p-2" type="text" id="input">
+        <button id="btnB" class="btn col-start-1 bg-blue-300 hover:bg-gray-400 border-blue-700 text-blue-800">
+            <span>B</span>
+            <span>L</span>
+            <span>U</span>
+            <span>E</span>
+        </button>
+        <button id="btnG" class="btn col-start-2 hover:bg-gray-400 border-green-700 text-green-800 bg-green-300">
+            <span>G</span>
+            <span>R</span>
+            <span>E</span>
+            <span>E</span>
+            <span>N</span>
+        </button>
+        <button id="btnY" class="btn col-start-3 hover:bg-gray-400 border-yellow-700 text-yellow-800 bg-yellow-300">
+            <span>Y</span>
+            <span>E</span>
+            <span>L</span>
+            <span>L</span>
+            <span>O</span>
+            <span>W</span>
+        </button>
+        <button id="btnR" class="btn col-start-4 hover:bg-gray-400 border-red-700 text-red-800 bg-red-300">
+            <span>R</span>
+            <span>E</span>
+            <span>D</span>
+        </button>
     </section>
     <script src="./js/script.js">   
     </script>
 </body>
 </html>
+
